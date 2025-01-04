@@ -59,7 +59,7 @@ Ensure the following tools are installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/username/ml-zoomcamp-2024-kubernetes.git
+git clone https://github.com/DataTalksClub/ml-zoomcamp-2024-kubernetes.git
 cd ml-zoomcamp-2024-kubernetes
 ```
 
