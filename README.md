@@ -66,8 +66,8 @@ cd ml-zoomcamp-2024-kubernetes
 ### Build and Push Docker Image
 
 ```bash
-docker build -t <docker-hub-username>/tensorflow-serving:latest .
-docker push <docker-hub-username>/tensorflow-serving:latest
+docker build -t <docker-hub-zoomcamp-model>/tensorflow-serving:latest .
+docker push <docker-hub-zoomcamp-model>/tensorflow-serving:latest
 ```
 
 ---
@@ -102,7 +102,7 @@ spec:
     spec:
       containers:
       - name: tf-serving-container
-        image: <docker-hub-username>/tensorflow-serving:latest
+        image: <docker-hub-sallybakar>/tensorflow-serving:latest
         ports:
         - containerPort: 8501
 ```
